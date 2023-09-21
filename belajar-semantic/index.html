@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Belajar Semantic UI</title>
+    <link rel="stylesheet" href="Semantic-UI-CSS-master/semantic.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="Semantic-UI-CSS-master/semantic.min.js"></script>
+</head>
+<body>
+<div class="ui bottom attached segment pushable">
+    <div class="ui visible inverted left vertical sidebar menu">
+        <div class="ui basic segment">
+            <img src="img/logo-gamezone.png" alt="Logo GameZone" class="ui image middle aligned" width="200px">
+        </div>
+        <a class="item">
+            <i class="home icon"></i>
+            Dashboard
+        </a>
+        <a class="item">
+            <i class="gamepad icon"></i>
+            Games
+        </a>
+        <a class="item">
+            <i class="users icon"></i>
+            Users
+        </a>
+        <a class="item">
+            <i class="dollar icon"></i>
+            Payments
+        </a>
+    </div>
+    <div class="pusher">
+        <div class="ui segment">
+            <div class="ui breadcrumb">
+                <a class="section">Dashboard</a>
+            </div>
+        </div>
+        <div class="ui grid stackable padded">
+            <div class="four wide computer eight wide tablet sixteen wide mobile column">
+                <div class="ui fluid card">
+                    <div class="content">
+                        <div class="ui right floated header red">
+                            <i class="icon gamepad"></i>
+                        </div>
+                        <div class="header">
+                            <div class="ui red header">500</div>
+                        </div>
+                        <div class="meta">Game</div>
+                    </div>
+                </div>
+            </div>
+            <div class="four wide computer eight wide tablet sixteen wide mobile column">
+                <div class="ui fluid card">
+                    <div class="content">
+                        <div class="ui right floated header black">
+                            <i class="icon users"></i>
+                        </div>
+                        <div class="header">
+                            <div class="ui black header">1500</div>
+                        </div>
+                        <div class="meta">Users</div>
+                    </div>
+                </div>
+            </div>
+            <div class="four wide computer eight wide tablet sixteen wide mobile column">
+                <div class="ui fluid card">
+                    <div class="content">
+                        <div class="ui right floated header yellow">
+                            <i class="icon shopping cart"></i>
+                        </div>
+                        <div class="header">
+                            <div class="ui yellow header">2000</div>
+                        </div>
+                        <div class="meta">Orders</div>
+                    </div>
+                </div>
+            </div>
+            <div class="four wide computer eight wide tablet sixteen wide mobile column">
+                <div class="ui fluid card">
+                    <div class="content">
+                        <div class="ui right floated header green">
+                            <i class="icon dollar"></i>
+                        </div>
+                        <div class="header">
+                            <div class="ui green header">1000</div>
+                        </div>
+                        <div class="meta">Payments</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <table class="ui celled table">
+            <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Job</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td data-label="Name">James</td>
+                <td data-label="Age">24</td>
+                <td data-label="Job">Engineer</td>
+            </tr>
+            <tr>
+                <td data-label="Name">Jill</td>
+                <td data-label="Age">26</td>
+                <td data-label="Job">Engineer</td>
+            </tr>
+            <tr>
+                <td data-label="Name">Elyse</td>
+                <td data-label="Age">24</td>
+                <td data-label="Job">Designer</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<script>
+    $('.ui.dropdown').dropdown();
+</script>
+</body>
+</html>
